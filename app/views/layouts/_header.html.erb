@@ -1,0 +1,17 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <%= link_to "sample app", '#', id: "logo" %>
+          <nav>
+            <ul class="nav pull-right">
+              <li><%= link_to "Home",    static_page_home_path %></li>
+              <li><%= link_to "About",   static_page_about_path %></li>
+              <li><%= link_to "Help",    static_page_help_path %></li>
+              <li><%= link_to "Contact", static_page_contact_path %></li>
+              <li><%= link_to "Sign in", '/signin' %></li>
+              <li><%= link_to "Sign up", users_new_path %></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
